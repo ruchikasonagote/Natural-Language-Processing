@@ -49,7 +49,7 @@ for filename in os.listdir(folder_path):
         file_df["Semantic Label 1"] = file_sentiments
 
         # Save the updated file DataFrame
-        folder_path_new= folder_path = folder_path = '//content//sample_data'
+        folder_path_new = '//content//sample_data'
 
         updated_file_path = os.path.join(folder_path_new, "Model_1" + filename)
         # updated_file_path='/content/Model1_updated'
